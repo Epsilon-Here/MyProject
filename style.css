@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000; /* Hitam untuk background utama */
+  color: #ffffff; /* Putih untuk teks */
+  margin: 0;
+  padding: 20px;
+}
+
+h2 {
+  color: #ffffff; /* Putih untuk heading */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: #1a1a1a; /* Hitam gelap untuk form */
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(255, 0, 0, 0.2); /* Efek shadow merah */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #cccccc; /* Abu-abu terang untuk label */
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 2px solid #ff0000; /* Merah untuk border */
+  border-radius: 6px;
+  background-color: #000000; /* Hitam untuk background input */
+  color: #ffffff; /* Putih untuk teks */
+  font-size: 14px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #dc143c; /* Crimson untuk fokus */
+  box-shadow: 0 0 8px rgba(255, 0, 0, 0.5); /* Efek glow merah */
+  outline: none;
+}
+
+button {
+  background-color: #ff0000; /* Merah untuk button */
+  color: #ffffff; /* Putih untuk teks */
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #b22222; /* Merah gelap untuk hover */
+  transform: translateY(-2px); /* Efek lift */
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  margin-top: 20px;
+  background-color: #000000; /* Hitam untuk table */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #333333; /* Abu-abu gelap untuk separator */
+}
+
+th {
+  background-color: #1a1a1a; /* Hitam gelap untuk header */
+  color: #ffffff; /* Putih untuk teks */
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #0d0d0d; /* Variasi hitam untuk baris genap */
+}
+
+a {
+  color: #ff0000; /* Merah untuk link */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffffff; /* Putih untuk hover */
+  text-decoration: underline;
+}
+
+div {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #000000; /* Hitam untuk container */
+  color: #ffffff; /* Putih untuk teks umum */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.1);
+}
